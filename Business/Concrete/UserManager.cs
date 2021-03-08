@@ -18,7 +18,7 @@ namespace Business.Concrete
 
         public UserManager(IUserDal userDal)
         {
-            _userDal = userDal;
+            _userDal = userDal; 
         }
 
         public List<OperationClaim> GetClaims(User user)
